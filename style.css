@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #cdcdcd;
+}
+
+ul {
+    list-style: none;
+}
+
+.gallery__slide {
+    display: flex;
+    width: 100%;
+    max-width: 1028px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(119, 128, 128);
+}
+
+.gallery__slide li {
+    margin: 10px;
+}
+
+.gallery__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
